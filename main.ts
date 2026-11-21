@@ -1,7 +1,7 @@
 // One Sentence — a poem about permission.
 // Writes the poem deterministically to $MAKEFUN_OUTPUT_DIR/entry.txt.
 // Node 22 stdlib only. No network, no randomness, no timestamps.
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const poem: string = `One Sentence
@@ -27,3 +27,10 @@ if (!outDir) {
 }
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "entry.txt"), poem, "utf8");
+
+// Fail fast on a bad write: read the file back and verify it matches
+// the poem exactly before reporting success.
+const written: string = readFileSync(join(outDir, "entry.txt"), "utf8");
+if (written !== poem) {
+  throw new Error("entry.txt does not match the poem after writing");
+}

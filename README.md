@@ -1,8 +1,8 @@
 # One Sentence
 
 [![Bounty](https://make.fun/badge/the-poem-about-permission-20261121-0235.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
-[![Rank](https://make.fun/badge/the-poem-about-permission-20261121-0235/Indramunggahari10/the-poem-about-permission-20261121-0235-ono10-v2/rank.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
-[![Reward](https://make.fun/badge/the-poem-about-permission-20261121-0235/Indramunggahari10/the-poem-about-permission-20261121-0235-ono10-v2/reward.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
+[![Rank](https://make.fun/badge/the-poem-about-permission-20261121-0235/vjmunggahari-ui/the-poem-about-permission-20261121-0235-ono10-v2/rank.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
+[![Reward](https://make.fun/badge/the-poem-about-permission-20261121-0235/vjmunggahari-ui/the-poem-about-permission-20261121-0235-ono10-v2/reward.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235)
 
 A short poem about permission — the power to ask and to be given — written for [The poem about permission](https://make.fun/bounty/the-poem-about-permission-20261121-0235) on [make.fun](https://make.fun).
 
